@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./gym.jpg);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    background-size:110%;
+    background-repeat: no-repeat;
+}
+.left{
+    position: absolute;
+    left: 96px;
+    top: 20px;
+    
+}
+.left img{
+    width: 180px;
+    height: 170px;
+}
+.mid{
+
+width: 43%;
+margin: 7px auto;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: wheat;
+    text-decoration: none;
+    padding: 27px;
+}
+.navbar li a:hover{
+    color: gray;
+    text-decoration:underline;
+}
+.right{
+position: absolute;
+right: 34px;
+top: 20px;
+}
+.btn,.btn2{
+    background-color: black;
+    color: white;
+    border: 2px grey solid;
+    padding: 4px 14px;
+    margin: 0px 9px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.btn:hover{
+    background-color: green;
+}
+.btn2:hover{
+    background-color: blueviolet;
+}
+.container1{
+    position: absolute;
+    left: 118px;
+    top: 80px;
+    border: 2px solid white;
+    margin: 225px 170px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 27%;
+    font-size: 12px;
+    background-color:rgba(0,0,0,0.6);
+    
+}
+.logintitle{
+    text-align: center;
+}
+.f1{
+    display: block;
+    text-align: center;
+    margin: -5px auto;
+    width: 278px;
+}
+.btn1 {
+    display: block;
+    background-color: black;
+    color: white;
+    border: 2px grey solid;
+    padding: 0px 6px;
+    margin: 6px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    width: 285px;
+}
+.programs{
+    background-image:url(./serv3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 781px;
+    width:100% ;
+    height:100%;
+    background-color:rgba(0,0,0,0.9);
+    color: black;
+}
+.ourprog{
+    text-align: center;
+    font-size: 30px;
+}
+.bx1{
+    background-color: white;
+    width: 380px;
+    height: 233px;
+    float: left;
+    margin-left: 95px; 
+    margin-top: 10px; 
+     transition: transform .9s;     
+}
+.bx1:hover{
+    transform: scale(1.2);
+}
+.bx1.b2{
+    margin-top: 60px;
+}
+.serv{
+    text-align: center;
+    margin:auto;
+}
+.contact{
+    box-sizing: border-box;
+    background-image:url(./black\ bag2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 1562px;
+    width:100% ;
+    min-height:100vh;
+    background-color:rgba(0,0,0,0.9);
+    color: black;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+}
+.container{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+    color: red;
+    margin-top: -10px;
+}
+.container .contactinfo .box .text p{
+    margin-top: -13px;
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background:rgba(0,0,0,0.6)
+}
+.contactform h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+}
+.contactform .inputbox input:focus ~ span{
+    color: red;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]{
+    width: 100px;
+    background:red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
